@@ -24,4 +24,4 @@ Kendala berikutnya yaitu mengisi bagian `TODO` karena masih mempelajari pengguna
 
 ![Dokumentasi](Dokumentasi/minggu-01.uji2buildsuccess.png)
 
-![Dokumentasi](Dokumentasi/minggu-01_ujilbuildfailure.png)
+![Dokumentasi](Dokumentasi/minggu-01_uji1buildfailure.png)
