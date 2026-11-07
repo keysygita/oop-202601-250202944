@@ -4,16 +4,19 @@
 Saya melengkapi class, yaitu `Ruang.java`, `Laptop.java`, dan `AlatLab.java`. Saya mengubah bagian yang ditugaskan, seperti menambahkan field, konstruktor, getter, serta menyesuaikan validasi dan method `getJenis()` pada masing-masing kelas.
 
 ## Keputusan desain
-Saya menempatkan atribut umum di class induk `Aset`, sedangkan atribut khusus ditempatkan di masing-masing class turunan. Saya menggunakan super(kode, nama) untuk memanggil konstruktor induk dan `getJenis()` untuk membedakan jenis aset. Inheritance kurang tepat jika objek tidak memiliki hubungan pewarisan, seperti infomasi lokasi penyimpanan yang sesuai menggunakan komposisi.
+Saya menempatkan atribut umum di class induk `Aset`, sedangkan atribut khusus ditempatkan di masing-masing class turunan. Saya menggunakan super (kode, nama) untuk memanggil konstruktor induk dan `getJenis()` untuk membedakan jenis aset. Inheritance kurang tepat jika objek tidak memiliki hubungan pewarisan, seperti infomasi lokasi penyimpanan yang sesuai menggunakan komposisi.
 
 ## Kendala
 Saya mengalami error saat pengujian Maven karena tipe data `getJenis()` tidak sesuai dan terdapat kesalahan penulisan variabel `tingkatRisiko`. Saya memperbaikinya dengan menyesuaikan tipe data dan nama variabel.
 
 ## Penggunaan AI
--**Alat yang dipakai:**ChatGPT
--**Bagian yang dibantu AI:**Membantu melengkapi dan memeriksa kode pada class `Ruang.java`, `Laptop.java`, dan `AlatLab.java`, serta menemukan bagian kode yang mengalami error.
--**Yang saya ubah atau tolak dari saran AI, dan alasannya:**Saya memperbaiki kode sesuai intruksi yang diberikan dan memastikan setiap jenis aset memiliki validasi yang benar.
-- **Satu hal yang saya pahami lebih baik sekarang:** Saya memahami bahwa inheritance memungkinkan class turunan menggunakan atribut dan method dari class induk, serta mengikuti aturan yang sudah ditentukan oleh class induk.
+- **Alat yang dipakai:** ChatGPT
+
+- **Bagian yang dibantu AI:** Membantu melengkapi dan memeriksa kode pada class `Ruang.java`, `Laptop.java`, dan `AlatLab.java`, serta menemukan bagian kode yang mengalami error.
+
+- **Yang saya ubah atau tolak dari saran AI, dan alasannya:** Saya memperbaiki kode sesuai intruksi yang diberikan dan memastikan setiap jenis aset memiliki validasi yang benar.
+
+- **Satu hal yang saya pahami lebih baik sekarang:** Saya memahami bahwa inheritance memungkinkan class turunan menggunakan atribut dan method dari class induk, serta mengikuti aturan yang sudah ditentukan oleh class induk. 
 
 ## Hasil Pengujian
 
